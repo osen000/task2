@@ -3,7 +3,7 @@ import math
 
 
 class Triangle(Figure):
-    # name = 'triangle'
+    name = 'triangle'
 
     def __init__(self, line1, line2, line3):
         Figure.__init__(self)

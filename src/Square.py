@@ -2,7 +2,7 @@ from src.Figure import Figure
 
 
 class Square(Figure):
-    # name = 'square'
+    name = 'square'
 
     def __init__(self, line):
         Figure.__init__(self)
